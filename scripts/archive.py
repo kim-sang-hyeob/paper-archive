@@ -61,6 +61,7 @@ def documents(data):
     lines = [
         "# 논문 보관함", "",
         "나중에 제목이 기억나지 않아도 내용과 키워드로 다시 찾기 위한 개인 논문 목록입니다.", "",
+        *([f"[웹 보관함 열기]({data['website_url']})", ""] if data.get("website_url") else []),
         f"현재 {len(records)}편, 미독 {unread}편. 최근 수정일 {data['updated_on']}.", "",
         "논문 링크만 보내면 기본으로 미독 등록, 대략 분류, 짧은 요약과 검색 키워드 작성을 거쳐 이 공개 GitHub 보관함에 추가합니다. 이미 보관한 논문은 기존 읽기 상태와 메모를 유지합니다.", "",
         "## 전체 목록", "", paper_table(records, topic_names), "",

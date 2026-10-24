@@ -5,6 +5,7 @@
   "timezone": "Asia/Seoul",
   "repository_url": "https://github.com/kim-sang-hyeob/paper-archive",
   "repository_visibility": "public",
+  "website_url": "https://sanghyeop-paper-archive.sanghyeopkim.chatgpt.site",
   "default_reading_status": "미독",
   "registration_policy": "논문 링크만 보내면 원문 메타데이터를 확인하고, 미독으로 등록하고, 대략 분류와 요약을 추가한 뒤 GitHub에 반영한다. 중복 논문은 기존 읽기 상태와 사용자 메모를 보존한다.",
   "workbook": "paper_archive.xlsx",
