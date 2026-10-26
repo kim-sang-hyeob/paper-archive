@@ -8,3 +8,4 @@
 | --- | --- | --- | --- | --- |
 | 미독 | [Reading, Writing, Sharing, and Interacting with the World through Video](../papers/2610.31668.md) | 서베이 | 비디오 월드 모델 | 비디오 이해·생성·월드모델 전반을 네 축으로 정리한 서베이 |
 | 미독 | [Self-Improving Video-to-Action Models (Mirror)](../papers/2610.24177.md) | 방법론 | 행동 학습과 에이전트 | 영상 계획을 따라 직접 시행착오하며 행동 모델을 개선하는 Minecraft Mirror 논문 |
+| 미독 | [Multiplayer Interactive World Models with Representation Autoencoders (MIRA)](../papers/2607.05352.md) | 방법론 | 비디오 월드 모델 | Rocket League 네 플레이어의 영상·action을 함께 넣고 RAE latent의 diffusion forcing으로 장기 생성하는 MIRA 논문 |

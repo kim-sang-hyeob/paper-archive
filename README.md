@@ -4,7 +4,7 @@
 
 [웹 보관함 열기](https://sanghyeop-paper-archive.sanghyeopkim.chatgpt.site)
 
-현재 2편, 미독 2편. 최근 수정일 2026-10-24.
+현재 3편, 미독 3편. 최근 수정일 2026-10-26.
 
 논문 링크만 보내면 기본으로 미독 등록, 대략 분류, 짧은 요약과 검색 키워드 작성을 거쳐 이 공개 GitHub 보관함에 추가합니다. 이미 보관한 논문은 기존 읽기 상태와 메모를 유지합니다.
 
@@ -14,6 +14,7 @@
 | --- | --- | --- | --- | --- |
 | 미독 | [Reading, Writing, Sharing, and Interacting with the World through Video](papers/2610.31668.md) | 서베이 | 비디오 월드 모델 | 비디오 이해·생성·월드모델 전반을 네 축으로 정리한 서베이 |
 | 미독 | [Self-Improving Video-to-Action Models (Mirror)](papers/2610.24177.md) | 방법론 | 행동 학습과 에이전트 | 영상 계획을 따라 직접 시행착오하며 행동 모델을 개선하는 Minecraft Mirror 논문 |
+| 미독 | [Multiplayer Interactive World Models with Representation Autoencoders (MIRA)](papers/2607.05352.md) | 방법론 | 비디오 월드 모델 | Rocket League 네 플레이어의 영상·action을 함께 넣고 RAE latent의 diffusion forcing으로 장기 생성하는 MIRA 논문 |
 
 초록과 공식 프로젝트 페이지를 바탕으로 초벌 분류했습니다. 읽기 상태는 사용자의 상태입니다.
 
@@ -21,10 +22,10 @@
 
 한 논문이 여러 주제에 속할 수 있습니다. 서베이와 방법론은 유형으로, 미독과 완독은 읽기 상태로 따로 관리합니다.
 
-- [비디오 월드 모델](topics/video-world-models.md): 1편. 영상으로 세계 상태와 시간에 따른 변화를 모델링하는 연구.
+- [비디오 월드 모델](topics/video-world-models.md): 2편. 영상으로 세계 상태와 시간에 따른 변화를 모델링하는 연구.
 - [비디오 이해](topics/video-understanding.md): 1편. 영상의 의미, 공간, 시간, 물리 및 인과 관계를 이해하는 연구.
-- [비디오 생성](topics/video-generation.md): 2편. 영상을 생성하거나 편집하고 미래 장면을 예측하는 연구.
-- [행동 학습과 에이전트](topics/embodied-agents.md): 1편. 관측과 영상 계획을 실제 행동, 제어, 환경 상호작용으로 연결하는 연구.
+- [비디오 생성](topics/video-generation.md): 3편. 영상을 생성하거나 편집하고 미래 장면을 예측하는 연구.
+- [행동 학습과 에이전트](topics/embodied-agents.md): 2편. 관측과 영상 계획을 실제 행동, 제어, 환경 상호작용으로 연결하는 연구.
 
 ## 내용으로 다시 찾기
 

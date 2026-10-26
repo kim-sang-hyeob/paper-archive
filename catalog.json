@@ -1,7 +1,7 @@
 {
   "archive_name": "논문 보관함",
   "schema_version": 2,
-  "updated_on": "2026-10-24",
+  "updated_on": "2026-10-26",
   "timezone": "Asia/Seoul",
   "repository_url": "https://github.com/kim-sang-hyeob/paper-archive",
   "repository_visibility": "public",
@@ -68,6 +68,33 @@
       "sources": ["https://arxiv.org/abs/2610.24177", "https://wilcoxsonm21.github.io/mirror/"],
       "source_sections": ["arXiv abstract and metadata", "Official project page: method, closed-loop replanning, benchmarks"],
       "source_checked_on": "2026-10-24",
+      "pdf_saved_locally": false
+    },
+    {
+      "arxiv_id": "2607.05352",
+      "version_checked": "v2",
+      "title": "Multiplayer Interactive World Models with Representation Autoencoders",
+      "method_name": "MIRA",
+      "authors": ["Anthony Hu", "Václav Volhejn", "Adrien Ramanana Rahary", "Chris Mulder", "Aditya Makkar", "Alyx Liao", "Amélie Royer", "Manu Orsini", "Adam Jelley", "Eloi Alonso", "Florian Laurent", "Fredrik Norén", "James Swingos", "Jan Hünermann", "Kent Rollins", "Lucas Hosseini", "Matthieu Le Cauchois", "Maxim Peter", "Pim de Witte", "Tim Brown", "Vincent Micheli", "Moritz Böhle", "Gabriel de Marmiesse", "Viktoriia Sharmanska", "Lucia Specia", "Michael Black", "Patrick Pérez"],
+      "submitted_on": "2026-07-06",
+      "revised_on": "2026-07-07",
+      "added_on": "2026-10-26",
+      "reading_status": "미독",
+      "paper_type": "방법론",
+      "primary_topic": "video-world-models",
+      "topics": ["video-world-models", "video-generation", "embodied-agents"],
+      "categories": ["멀티플레이어 월드 모델", "행동 조건부 영상 생성", "Diffusion Forcing", "Representation Autoencoder"],
+      "summary_ko": "Rocket League의 네 플레이어 영상과 행동 스트림을 함께 조건으로 받아 일관된 다중 시점 영상을 생성하는 MIRA를 제안한다. 표현 오토인코더(RAE) 기반 비디오 코덱의 latent에서 causal diffusion forcing으로 학습하고, 생성 결과를 다시 입력해 장기 rollout한다. 코덱, 생성 목적함수, 멀티플레이어 조건 방식이 안정성에 미치는 영향을 비교하며, 영상 품질과 별도로 물리 상태 및 action-following을 평가한다.",
+      "retrieval_keywords": ["MIRA", "multiplayer world model", "interactive world model", "representation autoencoder", "RAE", "video representation codec", "diffusion forcing", "causal transformer", "action-conditioned video generation", "action following", "long-horizon rollout", "Rocket League", "Rocket Science", "멀티플레이어", "다중 에이전트", "동기화 다중 시점", "행동 조건부 월드 모델", "노이즈 history", "장기 rollout", "표현 오토인코더"],
+      "retrieval_hint": "Rocket League 네 플레이어의 영상·action을 함께 넣고 RAE latent의 diffusion forcing으로 장기 생성하는 MIRA 논문",
+      "user_note": null,
+      "original_url": "https://arxiv.org/pdf/2607.05352",
+      "arxiv_url": "https://arxiv.org/abs/2607.05352",
+      "pdf_url": "https://arxiv.org/pdf/2607.05352v2",
+      "project_url": "https://mira-wm.com/",
+      "sources": ["https://arxiv.org/abs/2607.05352", "https://mira-wm.com/blog-post/"],
+      "source_sections": ["arXiv abstract, authors, and v1/v2 submission metadata", "Official project blog: Data, Architecture, Video representation codec, Evaluation metrics, Limitations"],
+      "source_checked_on": "2026-10-26",
       "pdf_saved_locally": false
     }
   ]
