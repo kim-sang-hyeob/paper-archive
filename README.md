@@ -4,7 +4,7 @@
 
 [웹 보관함 열기](https://sanghyeop-paper-archive.sanghyeopkim.chatgpt.site)
 
-현재 8편, 미독 8편. 최근 수정일 2026-11-09.
+현재 9편, 미독 9편. 최근 수정일 2026-11-13.
 
 논문 링크만 보내면 기본으로 미독 등록, 대략 분류, 짧은 요약과 검색 키워드 작성을 거쳐 이 공개 GitHub 보관함에 추가합니다. 이미 보관한 논문은 기존 읽기 상태와 메모를 유지합니다.
 
@@ -20,6 +20,7 @@
 | 미독 | [MultiGen: Level-Design for Editable Multiplayer Worlds in Diffusion Game Engines (MultiGen)](papers/2603.06679.md) | 방법론 | 위치·상태 전이 (pos transition) | pos transition 참고 — MultiGen의 Dynamics 모듈과 pose 갱신 |
 | 미독 | [Training Diffusion Models with Reinforcement Learning (DDPO)](papers/2305.13301.md) | 방법론 | RL + Diffusion | RL + Diffusion 참고 — denoising을 정책으로 최적화하는 DDPO |
 | 미독 | [Flow-GRPO: Training Flow Matching Models via Online RL (Flow-GRPO)](papers/2505.05470.md) | 방법론 | RL + Diffusion | RL + Diffusion 참고 — flow matching에 online RL을 적용하는 Flow-GRPO |
+| 미독 | [Latent Temporal Discrepancy as Motion Prior: A Loss-Weighting Strategy for Dynamic Fidelity in T2V (LTD)](papers/2601.20504.md) | 방법론 | 비디오 생성 | latent 프레임 차이로 움직임이 큰 영역의 loss 가중치를 높이는 LTD 논문 |
 
 초록과 공식 프로젝트 페이지를 바탕으로 초벌 분류했습니다. 읽기 상태는 사용자의 상태입니다.
 
@@ -29,7 +30,7 @@
 
 - [비디오 월드 모델](topics/video-world-models.md): 5편. 영상으로 세계 상태와 시간에 따른 변화를 모델링하는 연구.
 - [비디오 이해](topics/video-understanding.md): 1편. 영상의 의미, 공간, 시간, 물리 및 인과 관계를 이해하는 연구.
-- [비디오 생성](topics/video-generation.md): 6편. 영상을 생성하거나 편집하고 미래 장면을 예측하는 연구.
+- [비디오 생성](topics/video-generation.md): 7편. 영상을 생성하거나 편집하고 미래 장면을 예측하는 연구.
 - [행동 학습과 에이전트](topics/embodied-agents.md): 5편. 관측과 영상 계획을 실제 행동, 제어, 환경 상호작용으로 연결하는 연구.
 - [위치·상태 전이 (pos transition)](topics/pos-transition.md): 3편. 위치·상태 전이 모델링을 위해 참고한 논문.
 - [RL + Diffusion](topics/rl-diffusion.md): 2편. 강화학습으로 diffusion·flow matching 생성 모델을 최적화하는 연구.

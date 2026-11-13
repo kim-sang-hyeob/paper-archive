@@ -1,7 +1,7 @@
 {
   "archive_name": "논문 보관함",
   "schema_version": 2,
-  "updated_on": "2026-11-09",
+  "updated_on": "2026-11-13",
   "timezone": "Asia/Seoul",
   "repository_url": "https://github.com/kim-sang-hyeob/paper-archive",
   "repository_visibility": "public",
@@ -229,6 +229,31 @@
       "arxiv_url": "https://arxiv.org/abs/2505.05470",
       "pdf_url": "https://arxiv.org/pdf/2505.05470v5",
       "source_checked_on": "2026-11-09",
+      "pdf_saved_locally": false
+    },
+    {
+      "arxiv_id": "2601.20504",
+      "version_checked": "v1",
+      "title": "Latent Temporal Discrepancy as Motion Prior: A Loss-Weighting Strategy for Dynamic Fidelity in T2V",
+      "method_name": "LTD",
+      "authors": ["Meiqi Wu", "Bingze Song", "Ruimin Lin", "Chen Zhu", "Xiaokun Feng", "Jiahong Wu", "Xiangxiang Chu", "Kaiqi Huang"],
+      "submitted_on": "2026-01-28",
+      "added_on": "2026-11-13",
+      "reading_status": "미독",
+      "paper_type": "방법론",
+      "primary_topic": "video-generation",
+      "topics": ["video-generation"],
+      "categories": ["Text-to-Video", "모션 학습", "Loss Weighting", "Latent Temporal Discrepancy"],
+      "summary_ko": "인접 latent 프레임의 차이(LTD)를 motion prior로 사용해 변화가 큰 영역의 학습 손실 가중치를 높이고 T2V의 동적 표현을 개선하는 방법.",
+      "retrieval_keywords": ["LTD", "Latent Temporal Discrepancy", "motion prior", "loss weighting", "loss reweighting", "dynamic fidelity", "T2V", "text-to-video", "Wan2.1", "VBench", "VMBench", "latent frame difference", "잠재 공간 프레임 차이", "시간적 차이", "모션 사전정보", "모션 학습", "움직임", "손실 가중치", "동적 영역", "ICASSP 2026"],
+      "retrieval_hint": "latent 프레임 차이로 움직임이 큰 영역의 loss 가중치를 높이는 LTD 논문",
+      "user_note": null,
+      "original_url": "https://arxiv.org/abs/2601.20504",
+      "arxiv_url": "https://arxiv.org/abs/2601.20504",
+      "pdf_url": "https://arxiv.org/pdf/2601.20504v1",
+      "sources": ["https://arxiv.org/abs/2601.20504"],
+      "source_sections": ["arXiv abstract, authors, v1 submission metadata, and ICASSP 2026 acceptance comment"],
+      "source_checked_on": "2026-11-13",
       "pdf_saved_locally": false
     }
   ]
