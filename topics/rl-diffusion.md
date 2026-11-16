@@ -9,3 +9,4 @@
 | 미독 | [Training Diffusion Models with Reinforcement Learning (DDPO)](../papers/2305.13301.md) | 방법론 | RL + Diffusion | RL + Diffusion 참고 — denoising을 정책으로 최적화하는 DDPO |
 | 미독 | [Flow-GRPO: Training Flow Matching Models via Online RL (Flow-GRPO)](../papers/2505.05470.md) | 방법론 | RL + Diffusion | RL + Diffusion 참고 — flow matching에 online RL을 적용하는 Flow-GRPO |
 | 미독 | [Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation (Reward Forcing)](../papers/2512.04678.md) | 방법론 | RL + Diffusion | TODO: RL + diffusion 활용 후보 — 모션 보상으로 DMD를 가중하는 Reward Forcing |
+| 미독 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process (DiffusionNFT)](../papers/2509.16117.md) | 방법론 | RL + Diffusion | RL + Diffusion 참고 — forward process에서 긍정·부정 샘플로 학습하는 DiffusionNFT |
