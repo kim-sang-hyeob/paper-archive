@@ -1,7 +1,7 @@
 {
   "archive_name": "논문 보관함",
   "schema_version": 2,
-  "updated_on": "2026-11-13",
+  "updated_on": "2026-11-16",
   "timezone": "Asia/Seoul",
   "repository_url": "https://github.com/kim-sang-hyeob/paper-archive",
   "repository_visibility": "public",
@@ -254,6 +254,33 @@
       "sources": ["https://arxiv.org/abs/2601.20504"],
       "source_sections": ["arXiv abstract, authors, v1 submission metadata, and ICASSP 2026 acceptance comment"],
       "source_checked_on": "2026-11-13",
+      "pdf_saved_locally": false
+    },
+    {
+      "arxiv_id": "2512.04678",
+      "version_checked": "v2",
+      "title": "Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation",
+      "method_name": "Reward Forcing",
+      "authors": ["Yunhong Lu", "Yanhong Zeng", "Haobo Li", "Hao Ouyang", "Qiuyu Wang", "Ka Leong Cheng", "Jiapeng Zhu", "Hengyuan Cao", "Zhipeng Zhang", "Xing Zhu", "Yujun Shen", "Min Zhang"],
+      "submitted_on": "2025-12-04",
+      "revised_on": "2025-12-28",
+      "added_on": "2026-11-16",
+      "reading_status": "미독",
+      "paper_type": "방법론",
+      "primary_topic": "rl-diffusion",
+      "topics": ["rl-diffusion", "video-generation"],
+      "categories": ["보상 기반 증류", "Rewarded Distribution Matching Distillation", "스트리밍 비디오 생성", "모션 개선", "EMA-Sink"],
+      "summary_ko": "VLM이 평가한 모션 보상을 반영하는 Re-DMD와 과거 문맥을 갱신하는 EMA-Sink로 스트리밍 비디오 생성의 움직임과 장기 일관성을 개선하는 방법.",
+      "retrieval_keywords": ["Reward Forcing", "reward forcing", "리워드 포싱", "Re-DMD", "rewarded distribution matching distillation", "EMA-Sink", "streaming video generation", "autoregressive video diffusion", "VLM reward", "motion dynamics", "RL + diffusion", "강화학습 활용 후보", "보상 기반 증류", "모션 보상", "스트리밍 영상 생성", "TODO", "todo", "할 일", "적용 검토"],
+      "retrieval_hint": "TODO: RL + diffusion 활용 후보 — 모션 보상으로 DMD를 가중하는 Reward Forcing",
+      "user_note": "TODO — RL + diffusion에 쓸 수 있을 것 같아서.",
+      "original_url": "https://arxiv.org/abs/2512.04678",
+      "arxiv_url": "https://arxiv.org/abs/2512.04678",
+      "pdf_url": "https://arxiv.org/pdf/2512.04678v2",
+      "project_url": "https://reward-forcing.github.io/",
+      "sources": ["https://arxiv.org/abs/2512.04678", "https://reward-forcing.github.io/"],
+      "source_sections": ["arXiv abstract, authors, and v1/v2 submission metadata", "Official project page: Abstract, EMA-Sink, and Re-DMD"],
+      "source_checked_on": "2026-11-16",
       "pdf_saved_locally": false
     }
   ]
