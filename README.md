@@ -4,7 +4,7 @@
 
 [웹 보관함 열기](https://sanghyeop-paper-archive.sanghyeopkim.chatgpt.site)
 
-현재 13편, 미독 13편. 최근 수정일 2026-11-16.
+현재 14편, 미독 14편. 최근 수정일 2026-11-18.
 
 논문 링크만 보내면 기본으로 미독 등록, 대략 분류, 짧은 요약과 검색 키워드 작성을 거쳐 이 공개 GitHub 보관함에 추가합니다. 이미 보관한 논문은 기존 읽기 상태와 메모를 유지합니다.
 
@@ -25,6 +25,7 @@
 | 미독 | [DiffusionNFT: Online Diffusion Reinforcement with Forward Process (DiffusionNFT)](papers/2509.16117.md) | 방법론 | RL + Diffusion | RL + Diffusion 참고 — forward process에서 긍정·부정 샘플로 학습하는 DiffusionNFT |
 | 미독 | [One-step Diffusion with Distribution Matching Distillation (DMD)](papers/2311.18828.md) | 방법론 | Diffusion 증류 | DMD 원 논문 — 분포 매칭으로 diffusion을 one-step 이미지 생성기로 증류 |
 | 미독 | [Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion (Self Forcing)](papers/2506.08009.md) | 방법론 | 비디오 생성 | 자기 생성 프레임으로 rollout하며 학습·추론 차이를 줄이는 Self Forcing |
+| 미독 | [The Platonic Representation Hypothesis](papers/2405.07987.md) | 포지션 페이퍼 | 표현 학습 | TODO (아예 안 읽음) — 서로 다른 모델·모달리티의 표현이 수렴한다는 플라톤적 표현 가설 |
 
 초록과 공식 프로젝트 페이지를 바탕으로 초벌 분류했습니다. 읽기 상태는 사용자의 상태입니다.
 
@@ -39,6 +40,7 @@
 - [위치·상태 전이 (pos transition)](topics/pos-transition.md): 3편. 위치·상태 전이 모델링을 위해 참고한 논문.
 - [RL + Diffusion](topics/rl-diffusion.md): 4편. 강화학습으로 diffusion·flow matching 생성 모델을 최적화하는 연구.
 - [Diffusion 증류](topics/diffusion-distillation.md): 2편. Diffusion 생성 모델을 한 번 또는 소수의 생성 단계로 가속하는 증류·분포 매칭 연구.
+- [표현 학습](topics/representation-learning.md): 1편. 모델이 학습한 표현의 구조와 정렬·수렴을 다루는 연구.
 
 ## 내용으로 다시 찾기
 

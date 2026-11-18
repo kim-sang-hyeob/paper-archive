@@ -1,7 +1,7 @@
 {
   "archive_name": "논문 보관함",
   "schema_version": 2,
-  "updated_on": "2026-11-16",
+  "updated_on": "2026-11-18",
   "timezone": "Asia/Seoul",
   "repository_url": "https://github.com/kim-sang-hyeob/paper-archive",
   "repository_visibility": "public",
@@ -17,7 +17,8 @@
     {"id": "embodied-agents", "name": "행동 학습과 에이전트", "description": "관측과 영상 계획을 실제 행동, 제어, 환경 상호작용으로 연결하는 연구"},
     {"id": "pos-transition", "name": "위치·상태 전이 (pos transition)", "description": "위치·상태 전이 모델링을 위해 참고한 논문"},
     {"id": "rl-diffusion", "name": "RL + Diffusion", "description": "강화학습으로 diffusion·flow matching 생성 모델을 최적화하는 연구"},
-    {"id": "diffusion-distillation", "name": "Diffusion 증류", "description": "Diffusion 생성 모델을 한 번 또는 소수의 생성 단계로 가속하는 증류·분포 매칭 연구"}
+    {"id": "diffusion-distillation", "name": "Diffusion 증류", "description": "Diffusion 생성 모델을 한 번 또는 소수의 생성 단계로 가속하는 증류·분포 매칭 연구"},
+    {"id": "representation-learning", "name": "표현 학습", "description": "모델이 학습한 표현의 구조와 정렬·수렴을 다루는 연구"}
   ],
   "classification_basis": "초록과 공식 프로젝트 페이지를 바탕으로 한 초벌 분류. 본문 정독 및 성능 검증 전.",
   "status_options": ["미독", "읽는 중", "완독", "보류"],
@@ -362,6 +363,32 @@
       "arxiv_url": "https://arxiv.org/abs/2506.08009",
       "pdf_url": "https://arxiv.org/pdf/2506.08009v2",
       "source_checked_on": "2026-11-16",
+      "pdf_saved_locally": false
+    },
+    {
+      "arxiv_id": "2405.07987",
+      "version_checked": "v5",
+      "title": "The Platonic Representation Hypothesis",
+      "authors": ["Minyoung Huh", "Brian Cheung", "Tongzhou Wang", "Phillip Isola"],
+      "submitted_on": "2024-05-13",
+      "revised_on": "2024-07-25",
+      "added_on": "2026-11-18",
+      "reading_status": "미독",
+      "paper_type": "포지션 페이퍼",
+      "primary_topic": "representation-learning",
+      "topics": ["representation-learning"],
+      "categories": ["표현 정렬", "표현 수렴", "멀티모달 표현", "Platonic Representation Hypothesis"],
+      "summary_ko": "서로 다른 데이터·목표·모달리티로 학습한 모델의 표현이 공통된 현실의 통계적 표현으로 수렴한다는 가설을 제시하고 근거와 한계를 논의한다.",
+      "retrieval_keywords": ["The Platonic Representation Hypothesis", "PRH", "platonic representation", "representation learning", "representation alignment", "representation convergence", "multimodal representation", "kernel alignment", "플라톤적 표현 가설", "플라토닉 표현", "표현 학습", "표현 정렬", "표현 수렴", "비전 언어", "ICML 2024", "TODO", "todo", "아예 안 읽음", "안읽음", "읽을 논문"],
+      "retrieval_hint": "TODO (아예 안 읽음) — 서로 다른 모델·모달리티의 표현이 수렴한다는 플라톤적 표현 가설",
+      "user_note": "TODO — 아예 안 읽음.",
+      "original_url": "https://arxiv.org/pdf/2405.07987",
+      "arxiv_url": "https://arxiv.org/abs/2405.07987",
+      "pdf_url": "https://arxiv.org/pdf/2405.07987v5",
+      "project_url": "https://phillipi.github.io/prh/",
+      "sources": ["https://arxiv.org/abs/2405.07987", "https://phillipi.github.io/prh/"],
+      "source_sections": ["arXiv abstract, authors, and v1/v5 submission metadata", "Official project page: hypothesis, convergence evidence, limitations, and ICML 2024 Position Paper label"],
+      "source_checked_on": "2026-11-18",
       "pdf_saved_locally": false
     }
   ]
