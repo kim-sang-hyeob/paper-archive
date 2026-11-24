@@ -6,6 +6,7 @@
 - The primary browsing interface is the public website https://sanghyeop-paper-archive.sanghyeopkim.chatgpt.site. It loads the current `catalog.json` from GitHub on visits and refreshes. Routine paper additions only need the archive's GitHub update; they do not need a website deployment.
 - `catalog.json` is the source of truth. Preserve user notes and reading status. Adding an unread paper does not mean the user has read it.
 - Classify papers by a broad primary topic and optional additional topics. Keep paper type (survey, method, etc.) and reading status separate from topic.
+- A topic may have a user-defined `reading_order` (ordered arXiv IDs) and `reading_order_note`. Preserve that order independently of publication/addition dates. `reading_focus` stores the user's reading prompts, distinct from verified summaries; keep their attribution and existing notes. The Code World Model list starts with the eight papers in the user's requested order, followed by ContextRenderer and Zing-1.0.
 - Verify new metadata and summaries against the original abstract or official project page. Clearly distinguish preliminary classification from a full reading.
 - After changes, run `python3 scripts/archive.py build` and `python3 scripts/archive.py check`. README, topic pages, and paper cards are generated from the catalog.
 - `paper_archive.xlsx` is the initial dated snapshot. The README and catalog hold the current archive. Do not silently overwrite user edits in Excel.

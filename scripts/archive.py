@@ -29,6 +29,11 @@ def load_catalog():
         for source in record["sources"]:
             if not source.startswith("https://"):
                 raise ValueError(f"Invalid source URL: {paper_id}")
+    for topic in data["topics"]:
+        order = topic.get("reading_order", [])
+        members = {r["arxiv_id"] for r in data["records"] if topic["id"] in r["topics"]}
+        if len(order) != len(set(order)) or set(order) - members:
+            raise ValueError(f"Invalid reading order: {topic['id']}")
     return data
 
 
@@ -88,9 +93,20 @@ def documents(data):
 
     for topic in data["topics"]:
         members = [r for r in records if topic["id"] in r["topics"]]
+        order = topic.get("reading_order", [])
+        ranks = {paper_id: i for i, paper_id in enumerate(order, 1)}
+        members.sort(key=lambda r: ranks.get(r["arxiv_id"], len(ranks) + 1))
+        reading_lines = []
+        if order:
+            reading_lines = ["## 읽기 순서", "", topic.get("reading_order_note", "사용자가 지정한 읽기 순서입니다."), "",
+                             "| 순서 | 논문 | 읽으면서 확인할 것 (사용자 메모) |", "| --- | --- | --- |"]
+            for r in members:
+                if r["arxiv_id"] in ranks:
+                    reading_lines.append(f"| {ranks[r['arxiv_id']]} | [{cell(r['title'])}](../papers/{r['arxiv_id']}.md) | {cell(r.get('reading_focus') or '추가 읽기 목록')} |")
+            reading_lines += ["", "## 논문 목록", ""]
         result[Path("topics") / f"{topic['id']}.md"] = "\n".join([
             f"# {topic['name']}", "", topic["description"] + ".", "",
-            "[전체 목록](../README.md)", "", paper_table(members, topic_names, "../"), "",
+            "[전체 목록](../README.md)", "", *reading_lines, paper_table(members, topic_names, "../"), "",
         ])
 
     for record in records:
@@ -112,6 +128,12 @@ def documents(data):
             info.append(f"- [공식 프로젝트]({record['project_url']})")
         if record["original_url"] != record["arxiv_url"]:
             info.append(f"- [처음 보낸 링크]({record['original_url']})")
+        for topic in data["topics"]:
+            order = topic.get("reading_order", [])
+            if paper_id in order:
+                info.append(f"- 읽기 순서: [{topic['name']} {order.index(paper_id) + 1}/{len(order)}](../topics/{topic['id']}.md)")
+        if record.get("reading_focus"):
+            info += ["", "## 읽으면서 확인할 것 (사용자 메모)", "", record["reading_focus"]]
         info += [
             "", "## 대략 어떤 논문인가", "", record["summary_ko"], "",
             "## 다시 찾을 단서", "", record["retrieval_hint"], "",
@@ -143,6 +165,7 @@ def main():
             text = " ".join([
                 record["title"], record.get("method_name", ""), record["summary_ko"],
                 record["retrieval_hint"], " ".join(record["retrieval_keywords"]),
+                record.get("reading_focus") or "", record.get("user_note") or "",
             ]).casefold()
             score = sum(term in text for term in terms)
             if score:
