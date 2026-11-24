@@ -15,3 +15,4 @@
 | 미독 | [Latent Temporal Discrepancy as Motion Prior: A Loss-Weighting Strategy for Dynamic Fidelity in T2V (LTD)](../papers/2601.20504.md) | 방법론 | 비디오 생성 | latent 프레임 차이로 움직임이 큰 영역의 loss 가중치를 높이는 LTD 논문 |
 | 미독 | [Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation (Reward Forcing)](../papers/2512.04678.md) | 방법론 | RL + Diffusion | TODO: RL + diffusion 활용 후보 — 모션 보상으로 DMD를 가중하는 Reward Forcing |
 | 미독 | [Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion (Self Forcing)](../papers/2506.08009.md) | 방법론 | 비디오 생성 | 자기 생성 프레임으로 rollout하며 학습·추론 차이를 줄이는 Self Forcing |
+| 미독 | [OverSeer: Multi-Agent World Models Beyond What Agents See (OverSeer)](../papers/2610.28554.md) | 방법론 | 비디오 월드 모델 | 고정 보조 카메라(CCTV 같은 시점)로 멀티 에이전트 월드 모델 일관성을 높인 논문 — MAC benchmark (overseers) |

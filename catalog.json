@@ -667,6 +667,33 @@
       "original_url": "https://arxiv.org/abs/2611.27336",
       "source_checked_on": "2026-11-24",
       "pdf_saved_locally": false
+    },
+    {
+      "arxiv_id": "2610.28554",
+      "version_checked": "v1",
+      "title": "OverSeer: Multi-Agent World Models Beyond What Agents See",
+      "method_name": "OverSeer",
+      "authors": ["Runjia Li", "Kam Woh Ng", "Minghao Chen", "Junlin Han", "Jianyuan Wang", "Zhaochong An", "Juan-Manuel Perez-Rua", "Andrea Vedaldi", "Shikun Liu"],
+      "submitted_on": "2026-10-20",
+      "added_on": "2026-11-24",
+      "reading_status": "미독",
+      "paper_type": "방법론",
+      "primary_topic": "video-world-models",
+      "topics": ["video-world-models", "video-generation"],
+      "categories": ["멀티 에이전트 월드 모델", "고정 보조 카메라 시점", "δ-VAE 압축", "MAC-Bench"],
+      "summary_ko": "여러 에이전트의 1인칭 영상을 함께 생성하는 월드 모델에, 공간에 고정된 보조 카메라 시점 영상도 같이 생성하게 해 세계 중심 표현의 대리물로 쓰는 방법(OverSeer). 보조 시점은 정적 참조 프레임 대비 변화만 담는 δ-VAE로 압축해 토큰 수를 줄인다. Minecraft·Doom에서 세계·에이전트 일관성이 좋아졌고, 실제 다중 카메라 촬영에서도 정성 결과를 보인다. 에이전트가 서로 시야를 잃었다가 재회할 때의 일관성을 VLM 판정으로 평가하는 MAC-Bench(Multi-Agent Consistency Benchmark; Minecraft 3과제, Doom 2과제)를 함께 제안한다. 공개 현황(2026-11-24 확인): HF에 학습 데이터(Minecraft 38,780 에피소드·Doom 19,775 에피소드, Apache-2.0)만 있고, 코드·가중치·MAC-Bench 평가 에피소드/스크립트는 공개 링크를 찾지 못했다.",
+      "retrieval_keywords": ["OverSeer", "overseers", "MAC-Bench", "MAC benchmark", "Multi-Agent Consistency Benchmark", "multi-agent world model", "멀티 에이전트 월드 모델", "auxiliary camera", "보조 카메라", "고정 시점", "CCTV 같은 고정 카메라", "world-centric", "delta-VAE", "δ-VAE", "Minecraft", "Doom", "Solaris", "reunite", "재회 일관성", "Meta AI", "Oxford"],
+      "retrieval_hint": "고정 보조 카메라(CCTV 같은 시점)로 멀티 에이전트 월드 모델 일관성을 높인 논문 — MAC benchmark (overseers)",
+      "user_note": null,
+      "original_url": "https://arxiv.org/pdf/2610.28554",
+      "arxiv_url": "https://arxiv.org/abs/2610.28554",
+      "pdf_url": "https://arxiv.org/pdf/2610.28554v1",
+      "project_url": "https://runjiali-rl.github.io/OverSeer/",
+      "sources": ["https://arxiv.org/abs/2610.28554", "https://arxiv.org/html/2610.28554", "https://runjiali-rl.github.io/OverSeer/", "https://huggingface.co/collections/liguang0115/overseer"],
+      "source_sections": ["arXiv abstract and metadata", "Sec. 4 benchmarks and Table 1; Appendix A MAC-Bench task specifications", "Official project page", "HF dataset cards (overseer-minecraft, overseer-doom)"],
+      "metadata_note": "Paper link text says overseer-wm.github.io but links to runjiali-rl.github.io/OverSeer/ (both resolve). GitHub runjiali-rl/OverSeer holds only the project page. HF datasets are train split only; paper has no code/weights release statement; MAC-Bench evaluation set not separately released as of 2026-11-24.",
+      "source_checked_on": "2026-11-24",
+      "pdf_saved_locally": false
     }
   ]
 }

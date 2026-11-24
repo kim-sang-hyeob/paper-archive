@@ -21,3 +21,4 @@
 | 미독 | [WorldRuler: Interactive World Modeling under Configurable Rules (WorldRuler)](../papers/2611.24869.md) | 방법론 | Code World Model | Code World Model 읽기 08 — WorldRuler |
 | 미독 | [ContextRenderer: Dynamic-Context Video Generation for Interactive Game Worlds (ContextRenderer)](../papers/2611.25838.md) | 방법론 | Code World Model | Code World Model 읽기 09 — ContextRenderer |
 | 미독 | [Zing-1.0: A Playable World System Built on Controllable Rendering (Zing-1.0)](../papers/2611.27336.md) | 기술 보고서 | Code World Model | Code World Model 읽기 10 — Zing-1.0 |
+| 미독 | [OverSeer: Multi-Agent World Models Beyond What Agents See (OverSeer)](../papers/2610.28554.md) | 방법론 | 비디오 월드 모델 | 고정 보조 카메라(CCTV 같은 시점)로 멀티 에이전트 월드 모델 일관성을 높인 논문 — MAC benchmark (overseers) |
