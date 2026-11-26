@@ -1,7 +1,7 @@
 {
   "archive_name": "논문 보관함",
   "schema_version": 2,
-  "updated_on": "2026-11-24",
+  "updated_on": "2026-11-26",
   "timezone": "Asia/Seoul",
   "repository_url": "https://github.com/kim-sang-hyeob/paper-archive",
   "repository_visibility": "public",
@@ -693,6 +693,31 @@
       "source_sections": ["arXiv abstract and metadata", "Sec. 4 benchmarks and Table 1; Appendix A MAC-Bench task specifications", "Official project page", "HF dataset cards (overseer-minecraft, overseer-doom)"],
       "metadata_note": "Paper link text says overseer-wm.github.io but links to runjiali-rl.github.io/OverSeer/ (both resolve). GitHub runjiali-rl/OverSeer holds only the project page. HF datasets are train split only; paper has no code/weights release statement; MAC-Bench evaluation set not separately released as of 2026-11-24.",
       "source_checked_on": "2026-11-24",
+      "pdf_saved_locally": false
+    },
+    {
+      "arxiv_id": "2610.11723",
+      "version_checked": "v5",
+      "title": "MultiWorldBench: Do Independently Controlled Views Describe One Shared World?",
+      "authors": ["Zhangbo Xu", "Ruoxi Zhang", "Rui Hu", "Yisong Wang", "Xitong Li", "Jingdong Wang"],
+      "submitted_on": "2026-10-08",
+      "revised_on": "2026-11-19",
+      "added_on": "2026-11-26",
+      "reading_status": "미독",
+      "paper_type": "벤치마크",
+      "primary_topic": "video-world-models",
+      "topics": ["video-world-models"],
+      "categories": ["멀티플레이어 월드 모델", "Minecraft", "공유 세계 상태 일관성"],
+      "summary_ko": "독립적으로 조작하는 두 플레이어의 Minecraft 시점이 하나의 지속적인 세계를 보여 주는지 평가한다. 7개 과제군의 495개 사례에서 한 플레이어의 조작이 다른 플레이어에게 새는지, 두 시점에서 움직임과 블록 편집이 일치하는지, 시야를 벗어났다가 돌아와도 편집 상태와 건물 정체성이 유지되는지 등 10개 능력을 측정한다. 논문이 보고한 평균은 Gamma-World 21.39, Solaris 멀티플레이어 20.88, Solaris 싱글플레이어 10.06, Minecraft 엔진 기준 91.69다.",
+      "retrieval_keywords": ["MultiWorldBench", "multi world bench", "multiplayer world model", "Minecraft", "마인크래프트", "멀티플레이어 벤치마크", "독립 조작", "control isolation", "cross-view motion", "시점 간 일관성", "shared world", "공유 상태 동기화", "state persistence", "블록 설치", "블록 파괴", "동시 상호작용", "race condition", "delayed revisit", "재방문 일관성", "Gamma-World", "Solaris"],
+      "retrieval_hint": "Minecraft에서 한 플레이어가 부순 블록이 다른 플레이어가 돌아왔을 때도 사라져 있는지 확인하는 멀티플레이어 벤치마크",
+      "user_note": null,
+      "original_url": "https://arxiv.org/html/2610.11723v5",
+      "arxiv_url": "https://arxiv.org/abs/2610.11723",
+      "pdf_url": "https://arxiv.org/pdf/2610.11723v5",
+      "sources": ["https://arxiv.org/abs/2610.11723v5", "https://arxiv.org/html/2610.11723v5"],
+      "source_sections": ["arXiv abstract, authors, and v1/v5 submission metadata", "Introduction, benchmark design, and evaluation overview"],
+      "source_checked_on": "2026-11-26",
       "pdf_saved_locally": false
     }
   ]
